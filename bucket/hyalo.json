@@ -1,0 +1,36 @@
+{
+  "version": "0.7.3",
+  "description": "CLI for exploring and managing Markdown knowledge bases",
+  "homepage": "https://github.com/ractive/hyalo",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/ractive/hyalo/releases/download/v0.7.3/hyalo-x86_64-pc-windows-msvc\\.zip",
+      "hash": "2340f53ba4e9fbdff6243ab2e50bf7e266b45288d406d64befde64e73d376d20"
+    },
+    "arm64": {
+      "url": "https://github.com/ractive/hyalo/releases/download/v0.7.3/hyalo-aarch64-pc-windows-msvc\\.zip",
+      "hash": "ad450e8a409b68f1954becbced187cfe3b34083652a30f8fd3b84324f08c018d"
+    }
+  },
+  "bin": "hyalo.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/ractive/hyalo/releases/download/v$version/hyalo-x86_64-pc-windows-msvc\\.zip",
+        "hash": {
+          "url": "https://github.com/ractive/hyalo/releases/download/v$version/SHA256SUMS",
+          "regex": "([a-fA-F0-9]+)\\s+hyalo-x86_64-pc-windows-msvc\\.zip"
+        }
+      },
+      "arm64": {
+        "url": "https://github.com/ractive/hyalo/releases/download/v$version/hyalo-aarch64-pc-windows-msvc\\.zip",
+        "hash": {
+          "url": "https://github.com/ractive/hyalo/releases/download/v$version/SHA256SUMS",
+          "regex": "([a-fA-F0-9]+)\\s+hyalo-aarch64-pc-windows-msvc\\.zip"
+        }
+      }
+    }
+  }
+}
