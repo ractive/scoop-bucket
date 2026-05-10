@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "description": "CLI for bunny.net cloud and edge services",
+  "homepage": "https://github.com/ractive/hoppy",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/ractive/hoppy/releases/download/v0.2.0/hoppy-v0.2.0-x86_64-pc-windows-msvc.zip",
+      "hash": "b5d77373d1413cd64ba85eb5006e7b42758f1a4d53fa09621c9398f79c998720"
+    },
+    "arm64": {
+      "url": "https://github.com/ractive/hoppy/releases/download/v0.2.0/hoppy-v0.2.0-aarch64-pc-windows-msvc.zip",
+      "hash": "c0b510f2d7559a7fceeda7de0fa5eef4f3813eb864b91e75ff7be7891fe9152b"
+    }
+  },
+  "bin": "hoppy.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/ractive/hoppy/releases/download/v$version/hoppy-v$version-x86_64-pc-windows-msvc.zip",
+        "hash": {
+          "url": "https://github.com/ractive/hoppy/releases/download/v$version/SHA256SUMS",
+          "regex": "([a-fA-F0-9]+)\\s+hoppy-v$version-x86_64-pc-windows-msvc\\.zip"
+        }
+      },
+      "arm64": {
+        "url": "https://github.com/ractive/hoppy/releases/download/v$version/hoppy-v$version-aarch64-pc-windows-msvc.zip",
+        "hash": {
+          "url": "https://github.com/ractive/hoppy/releases/download/v$version/SHA256SUMS",
+          "regex": "([a-fA-F0-9]+)\\s+hoppy-v$version-aarch64-pc-windows-msvc\\.zip"
+        }
+      }
+    }
+  }
+}
