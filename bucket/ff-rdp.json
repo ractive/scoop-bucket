@@ -1,16 +1,16 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "CLI for Firefox Remote Debugging Protocol",
   "homepage": "https://github.com/ractive/ff-rdp",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ractive/ff-rdp/releases/download/v0.2.0/ff-rdp-x86_64-pc-windows-msvc.zip",
-      "hash": "46b4373e7b10b832cb37d747f7dadbc72f285fe5b58eb28bfaf13513c77aa2c7"
+      "url": "https://github.com/ractive/ff-rdp/releases/download/v0.3.0/ff-rdp-v0.3.0-x86_64-pc-windows-msvc.zip",
+      "hash": "9c6c416f17a8eb3d6c476900094d0618aeddf88e0a940745727161ad8a61d7d6"
     },
     "arm64": {
-      "url": "https://github.com/ractive/ff-rdp/releases/download/v0.2.0/ff-rdp-aarch64-pc-windows-msvc.zip",
-      "hash": "bbfb43c0afee326a03f08a938a9ed3f33ab73770b8fc29b83a9f3eac3394fc60"
+      "url": "https://github.com/ractive/ff-rdp/releases/download/v0.3.0/ff-rdp-v0.3.0-aarch64-pc-windows-msvc.zip",
+      "hash": "06014ec2de9df2761535e30e5261e4dae605e868bbf7281e3b1b2400b25f9f46"
     }
   },
   "bin": "ff-rdp.exe",
@@ -18,17 +18,17 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ractive/ff-rdp/releases/download/v$version/ff-rdp-x86_64-pc-windows-msvc.zip",
+        "url": "https://github.com/ractive/ff-rdp/releases/download/v$version/ff-rdp-v$version-x86_64-pc-windows-msvc.zip",
         "hash": {
           "url": "https://github.com/ractive/ff-rdp/releases/download/v$version/SHA256SUMS",
-          "regex": "([a-fA-F0-9]+)\\s+ff-rdp-x86_64-pc-windows-msvc\\.zip"
+          "regex": "([a-fA-F0-9]+)\\s+ff-rdp-v$version-x86_64-pc-windows-msvc\\.zip"
         }
       },
       "arm64": {
-        "url": "https://github.com/ractive/ff-rdp/releases/download/v$version/ff-rdp-aarch64-pc-windows-msvc.zip",
+        "url": "https://github.com/ractive/ff-rdp/releases/download/v$version/ff-rdp-v$version-aarch64-pc-windows-msvc.zip",
         "hash": {
           "url": "https://github.com/ractive/ff-rdp/releases/download/v$version/SHA256SUMS",
-          "regex": "([a-fA-F0-9]+)\\s+ff-rdp-aarch64-pc-windows-msvc\\.zip"
+          "regex": "([a-fA-F0-9]+)\\s+ff-rdp-v$version-aarch64-pc-windows-msvc\\.zip"
         }
       }
     }
