@@ -1,16 +1,16 @@
 {
-  "version": "0.21.0",
+  "version": "0.24.0",
   "description": "CLI for exploring and managing Markdown knowledge bases with YAML frontmatter",
   "homepage": "https://github.com/ractive/hyalo",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ractive/hyalo/releases/download/v0.21.0/hyalo-v0.21.0-x86_64-pc-windows-msvc.zip",
-      "hash": "3769a3b4c18f981e29a53fae0365cdd1dc2091f4638eacf158579d519187d0ec"
+      "url": "https://github.com/ractive/hyalo/releases/download/v0.24.0/hyalo-v0.24.0-x86_64-pc-windows-msvc.zip",
+      "hash": "a90d4edb0611b452cfa613d3ee97c1279714b734992b7b69afe231bc0ed8ee7e"
     },
     "arm64": {
-      "url": "https://github.com/ractive/hyalo/releases/download/v0.21.0/hyalo-v0.21.0-aarch64-pc-windows-msvc.zip",
-      "hash": "6b8adec0347815faf76c4c49e8e402780fd4c9d68e6fc31bcccfa98ad415c5dc"
+      "url": "https://github.com/ractive/hyalo/releases/download/v0.24.0/hyalo-v0.24.0-aarch64-pc-windows-msvc.zip",
+      "hash": "636d961f56da87dad9ff98b042a8312be92acd941a56c0d9754fda158f7a04fb"
     }
   },
   "bin": "hyalo.exe",
