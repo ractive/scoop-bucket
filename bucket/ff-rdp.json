@@ -1,16 +1,16 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "CLI for Firefox Remote Debugging Protocol",
   "homepage": "https://github.com/ractive/ff-rdp",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ractive/ff-rdp/releases/download/v0.3.0/ff-rdp-v0.3.0-x86_64-pc-windows-msvc.zip",
-      "hash": "9c6c416f17a8eb3d6c476900094d0618aeddf88e0a940745727161ad8a61d7d6"
+      "url": "https://github.com/ractive/ff-rdp/releases/download/v0.4.0/ff-rdp-v0.4.0-x86_64-pc-windows-msvc.zip",
+      "hash": "a8324c1a5009a91b1eed96eb99f5c11b7c259efa984b5acf7e0e65b3657a5d84"
     },
     "arm64": {
-      "url": "https://github.com/ractive/ff-rdp/releases/download/v0.3.0/ff-rdp-v0.3.0-aarch64-pc-windows-msvc.zip",
-      "hash": "06014ec2de9df2761535e30e5261e4dae605e868bbf7281e3b1b2400b25f9f46"
+      "url": "https://github.com/ractive/ff-rdp/releases/download/v0.4.0/ff-rdp-v0.4.0-aarch64-pc-windows-msvc.zip",
+      "hash": "55b8a03485d23b412cffd1bf49405d0fcadfb6b1c551d8faea6ba1cec7971b97"
     }
   },
   "bin": "ff-rdp.exe",
