@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "description": "hptx: transfer files between HP 48/49 calculators and a computer over serial",
+  "homepage": "https://github.com/ractive/hptx",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/ractive/hptx/releases/download/v0.1.0/hptx-v0.1.0-x86_64-pc-windows-msvc.zip",
+      "hash": "d83147fb5d720a4cfb49861548831f9f7606c5ad3a48723c8caa6064b89054e6"
+    },
+    "arm64": {
+      "url": "https://github.com/ractive/hptx/releases/download/v0.1.0/hptx-v0.1.0-aarch64-pc-windows-msvc.zip",
+      "hash": "6e79adc9ff6d3dfe8f1e5169566f2e1c7a4cb691a7c0d913e4eadb046fadbefe"
+    }
+  },
+  "bin": "hptx.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/ractive/hptx/releases/download/v$version/hptx-v$version-x86_64-pc-windows-msvc.zip",
+        "hash": {
+          "url": "https://github.com/ractive/hptx/releases/download/v$version/SHA256SUMS",
+          "regex": "([a-fA-F0-9]+)\\s+hptx-v$version-x86_64-pc-windows-msvc\\.zip"
+        }
+      },
+      "arm64": {
+        "url": "https://github.com/ractive/hptx/releases/download/v$version/hptx-v$version-aarch64-pc-windows-msvc.zip",
+        "hash": {
+          "url": "https://github.com/ractive/hptx/releases/download/v$version/SHA256SUMS",
+          "regex": "([a-fA-F0-9]+)\\s+hptx-v$version-aarch64-pc-windows-msvc\\.zip"
+        }
+      }
+    }
+  }
+}
