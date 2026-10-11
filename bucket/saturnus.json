@@ -1,16 +1,16 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Command-line front end of the saturnus emulator: run ROMs headless, script keys, dump screens, serve the serial port and the control API",
   "homepage": "https://github.com/ractive/saturnus",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ractive/saturnus/releases/download/v0.1.0/saturnus-v0.1.0-x86_64-pc-windows-msvc.zip",
-      "hash": "4a20fdbd56c1f4b0c991287075fc8398cf146131f06c10da217ae2b0facf9844"
+      "url": "https://github.com/ractive/saturnus/releases/download/v0.2.0/saturnus-v0.2.0-x86_64-pc-windows-msvc.zip",
+      "hash": "802d1c4d3d928b75af00f5eddec15bd680051d90930a6d432703517aabf7ef7f"
     },
     "arm64": {
-      "url": "https://github.com/ractive/saturnus/releases/download/v0.1.0/saturnus-v0.1.0-aarch64-pc-windows-msvc.zip",
-      "hash": "50c3bb5f137bcdc818df5e926bdc432f4e740ad95e3bd8e8db429ab6437f7d97"
+      "url": "https://github.com/ractive/saturnus/releases/download/v0.2.0/saturnus-v0.2.0-aarch64-pc-windows-msvc.zip",
+      "hash": "a8dd7b39838754ca87eb0c60e635098cf0e92a518ff0712a99448fbcec22ab78"
     }
   },
   "bin": "saturnus.exe",
@@ -20,14 +20,14 @@
       "64bit": {
         "url": "https://github.com/ractive/saturnus/releases/download/v$version/saturnus-v$version-x86_64-pc-windows-msvc.zip",
         "hash": {
-          "url": "https://github.com/ractive/saturnus/releases/download/v$version/SHA256SUMS",
+          "url": "https://github.com/ractive/saturnus/releases/download/v$version/saturnus-SHA256SUMS",
           "regex": "([a-fA-F0-9]+)\\s+saturnus-v$version-x86_64-pc-windows-msvc\\.zip"
         }
       },
       "arm64": {
         "url": "https://github.com/ractive/saturnus/releases/download/v$version/saturnus-v$version-aarch64-pc-windows-msvc.zip",
         "hash": {
-          "url": "https://github.com/ractive/saturnus/releases/download/v$version/SHA256SUMS",
+          "url": "https://github.com/ractive/saturnus/releases/download/v$version/saturnus-SHA256SUMS",
           "regex": "([a-fA-F0-9]+)\\s+saturnus-v$version-aarch64-pc-windows-msvc\\.zip"
         }
       }
