@@ -1,16 +1,16 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Command-line front end of the saturnus emulator: run ROMs headless, script keys, dump screens, serve the serial port and the control API",
   "homepage": "https://github.com/ractive/saturnus",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ractive/saturnus/releases/download/v0.4.0/saturnus-v0.4.0-x86_64-pc-windows-msvc.zip",
-      "hash": "a59942e1d64f03b2c0e61e967fa647e889b2f40a24f9b16847e4bb7915e79184"
+      "url": "https://github.com/ractive/saturnus/releases/download/v0.5.0/saturnus-v0.5.0-x86_64-pc-windows-msvc.zip",
+      "hash": "9a80539658d5309f046f95c0594139ddbf5b7800aeca4677b526b039c558a19d"
     },
     "arm64": {
-      "url": "https://github.com/ractive/saturnus/releases/download/v0.4.0/saturnus-v0.4.0-aarch64-pc-windows-msvc.zip",
-      "hash": "dae03baa5e48bebce6a5144147762c3acf109c9b3cae8c51bb0e7739417364b8"
+      "url": "https://github.com/ractive/saturnus/releases/download/v0.5.0/saturnus-v0.5.0-aarch64-pc-windows-msvc.zip",
+      "hash": "86ad479e1d27b1fe3d36a380f3156506f8705845afd4859bb1bee4f4d24011e2"
     }
   },
   "bin": "saturnus.exe",
