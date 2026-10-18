@@ -1,16 +1,16 @@
 {
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "satx: transfer files between HP 48/49 calculators and a computer over serial",
   "homepage": "https://github.com/ractive/saturnus",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ractive/saturnus/releases/download/v0.6.0/satx-v0.6.0-x86_64-pc-windows-msvc.zip",
-      "hash": "e7379d6a5a0479cdc9d0e622f07e41ed66f1fe409f8510349598d44f8be83588"
+      "url": "https://github.com/ractive/saturnus/releases/download/v0.7.0/satx-v0.7.0-x86_64-pc-windows-msvc.zip",
+      "hash": "45c5909321443dc1f8fcff77adacc16338f3912d99570d39976eacca3acc4dbc"
     },
     "arm64": {
-      "url": "https://github.com/ractive/saturnus/releases/download/v0.6.0/satx-v0.6.0-aarch64-pc-windows-msvc.zip",
-      "hash": "fc9af7102627e56f174efc80b5335fa41df3b2650cf7e9a4c8148dad7bb68847"
+      "url": "https://github.com/ractive/saturnus/releases/download/v0.7.0/satx-v0.7.0-aarch64-pc-windows-msvc.zip",
+      "hash": "2de7391b262630dc8d87588e20c658382fd12ebe3e0e5c4b496bdd2a7fdb1ed5"
     }
   },
   "bin": "satx.exe",
