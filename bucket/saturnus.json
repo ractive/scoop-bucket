@@ -1,16 +1,16 @@
 {
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "The saturnus emulator of HP calculators on the command line: run ROMs, play key scripts, save screens, serve the serial port and the control API",
   "homepage": "https://github.com/ractive/saturnus",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ractive/saturnus/releases/download/v0.8.0/saturnus-v0.8.0-x86_64-pc-windows-msvc.zip",
-      "hash": "3d3ff426af9be4779e8cae58f62ac1259e747a268855af7e131bc87b7aeca656"
+      "url": "https://github.com/ractive/saturnus/releases/download/v0.8.1/saturnus-v0.8.1-x86_64-pc-windows-msvc.zip",
+      "hash": "03490d7920939a4f82831a75c9aef3b91ac67ee442952818f1fdaeefe5acdd00"
     },
     "arm64": {
-      "url": "https://github.com/ractive/saturnus/releases/download/v0.8.0/saturnus-v0.8.0-aarch64-pc-windows-msvc.zip",
-      "hash": "612fd95090dee601b0a5683ce72a3e6d34341e7603068e16f5dac2bd43287b48"
+      "url": "https://github.com/ractive/saturnus/releases/download/v0.8.1/saturnus-v0.8.1-aarch64-pc-windows-msvc.zip",
+      "hash": "2b3eea4d6800066e92c1d4758d0a3542e137bdd0dcca3345c461780403d8ebb4"
     }
   },
   "bin": "saturnus.exe",
