@@ -1,16 +1,16 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "CLI for bunny.net cloud and edge services",
   "homepage": "https://github.com/ractive/hoppy",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ractive/hoppy/releases/download/v0.7.0/hoppy-v0.7.0-x86_64-pc-windows-msvc.zip",
-      "hash": "92e7b5dbd0b5ba3ca35ac35a0ed38c290dbd0370f9f3a678d3cf3b69376cedf6"
+      "url": "https://github.com/ractive/hoppy/releases/download/v0.8.0/hoppy-v0.8.0-x86_64-pc-windows-msvc.zip",
+      "hash": "f30f1790f573eb23fed5eb99b140ddcbbaf4f4a2942362df6cd5d3e0b1d4fe1d"
     },
     "arm64": {
-      "url": "https://github.com/ractive/hoppy/releases/download/v0.7.0/hoppy-v0.7.0-aarch64-pc-windows-msvc.zip",
-      "hash": "74bf9e567cd27e907f3b34b15f6d12636f23dc8913195a1a717458c978aa8729"
+      "url": "https://github.com/ractive/hoppy/releases/download/v0.8.0/hoppy-v0.8.0-aarch64-pc-windows-msvc.zip",
+      "hash": "9656acb7494f1509fbc59bb10acf669fba840f095aa3850c5be216ecc506373a"
     }
   },
   "bin": "hoppy.exe",
